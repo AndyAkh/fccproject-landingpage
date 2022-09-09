@@ -82,7 +82,7 @@ body {
 
 .nav-list li a:hover,
 .nav-list li a:active {
-  background-color: blue;
+  background-color: #f03e3e;
   color: #fff;
 }
 
