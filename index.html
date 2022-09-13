@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smartwatch HUAWEI WATCH GT 3 Pro Titanium</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="queries.css" />
   </head>
   <body>
     <header id="header" class="flex">
-      <img
-        src="https://logos-world.net/wp-content/uploads/2020/04/Huawei-Logo.png"
-        alt=""
-        id="header-img"
-      />
+      <a href="#">
+        <img
+          src="https://logos-world.net/wp-content/uploads/2020/04/Huawei-Logo.png"
+          alt=""
+          id="header-img"
+        />
+      </a>
       <nav id="nav-bar" class="flex">
         <ul class="nav-list flex">
-          <li class="nav-link"><a href="#">Specs</a></li>
-          <li class="nav-link"><a href="#">Review</a></li>
-          <li class="nav-link"><a href="#">Colors</a></li>
+          <li><a class="nav-link" href="#section-specs">Specs</a></li>
+          <li><a class="nav-link" href="#section-video">Review</a></li>
+          <li><a class="nav-link" href="#section-styles">Products</a></li>
         </ul>
       </nav>
     </header>
@@ -28,6 +31,11 @@
         src="https://consumer.huawei.com/content/dam/huawei-cbg-site/cee-nordics/common/mkt/pdp/wearables/watch-gt3-pro-titanium/img/huawei-watch-gt-3-pro-titanium-key-vision.webp"
         alt="Huawei GT 3 Pro watches"
         class="hero-img"
+      />
+      <img
+        src="https://carrefour.ro/media/extra/c/9/c99a0a6df617bced997e1abfb74bb13e_19-42507056.jpeg"
+        alt=""
+        class="hidden-img"
       />
       <div class="hero-text flex">
         <h1 class="hero-title">
@@ -47,12 +55,12 @@
 
         <div class="hero-buy flex">
           <p>Special spring offer: from $300</p>
-          <a href="#" class="btn-buy">Buy Now</a>
+          <a href="#section-styles" class="btn-buy">Buy Now</a>
         </div>
       </div>
     </section>
 
-    <section class="section-specs">
+    <section class="section-specs" id="section-specs">
       <div class="specs-container container grid grid-2-col">
         <p class="spec-text">
           Complete titanium body with precise edges and edges, perfect from
@@ -91,12 +99,12 @@
       </div>
     </section>
 
-    <section class="section-video container">
+    <section class="section-video container" id="section-video">
       <iframe
         id="video"
         width="560"
         height="315"
-        src="https://www.youtube-nocookie.com/embed/Tdc-qdtNKwQ?controls=0"
+        src="https://www.youtube.com/embed/rqd9WaNyxXk"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -104,11 +112,11 @@
       ></iframe>
     </section>
 
-    <section class="section-styles">
+    <section class="section-styles" id="section-styles">
       <h3 class="styles-title">Now you can choose from 3 different styles</h3>
-      <div class="styles-container container grid">
+      <div class="styles-container grid">
         <div class="style-option">
-          <div class="img-text-box">
+          <div class="img-text-box grid">
             <img
               src="https://lcdn.altex.ro/resize/media/catalog/product/S/m/2bd48d28d1c32adea0e55139a4e6434a/Smartwatch_HUAWEI_Watch_GT_3_Pro_46mm_AndroidiOS_Gray_Leather_Strap_7_.jpg"
               alt=""
@@ -125,7 +133,7 @@
         </div>
 
         <div class="style-option">
-          <div class="img-text-box">
+          <div class="img-text-box grid">
             <img
               src="https://lcdn.altex.ro/resize/media/catalog/product/S/m/2bd48d28d1c32adea0e55139a4e6434a/Smartwatch_HUAWEI_Watch_GT_3_Pro_46mm_AndroidiOS_Black_Fluoroelastomer_Strap_11_.jpg"
               alt=""
@@ -142,7 +150,7 @@
         </div>
 
         <div class="style-option">
-          <div class="img-text-box">
+          <div class="img-text-box grid">
             <img
               src="https://lcdn.altex.ro/resize/media/catalog/product/S/m/2bd48d28d1c32adea0e55139a4e6434a/Smartwatch_HUAWEI_Watch_GT_3_Pro_Titanium_46mm_AndroidiOS_Light_Titanium_Strap_2_.jpg"
               alt=""
@@ -158,6 +166,29 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="section-form" id="section-form">
+      <h3 class="form-title">Stay updated with exclusive offers:</h3>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          name="name"
+          id="name"
+          type="name"
+          placeholder="Enter your name"
+          required=""
+        />
+
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required=""
+        />
+
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
     </section>
   </body>
 </html>

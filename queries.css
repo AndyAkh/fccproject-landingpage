@@ -1,0 +1,287 @@
+@media (max-width: 102em) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .nav-list li a:link,
+  .nav-list li a:visited {
+    font-size: 1.2rem;
+  }
+
+  .hero-description p {
+    font-size: 1.2rem;
+  }
+  .hero-buy p {
+    font-size: 1rem;
+  }
+
+  .btn-buy:link,
+  .btn-buy:visited {
+    font-size: 1.4rem;
+  }
+
+  .spec-text {
+    font-size: 1.2rem;
+  }
+
+  .style-title {
+    font-size: 1.2rem;
+  }
+
+  .style-variant {
+    font-size: 1.4rem;
+  }
+
+  .add-btn:link,
+  .add-btn:visited {
+    padding: 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  .section-form h3 {
+    font-size: 1.5rem;
+  }
+
+  .section-form > form > input[type="name"],
+  .section-form > form > input[type="email"] {
+    width: 25rem;
+  }
+
+  .section-form > form > input[type="submit"] {
+    padding: 0.6rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 80em) {
+  .hero-title {
+    font-size: 1.6rem;
+    align-self: flex-start;
+  }
+
+  .hero-img {
+    width: 40%;
+  }
+
+  .section-hero {
+    padding-bottom: 4rem;
+  }
+  .nav-list li a:link,
+  .nav-list li a:visited {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 72em) {
+  .hero-description p {
+    font-size: 1.1rem;
+  }
+
+  .hero-link:link,
+  .hero-link:visited {
+    font-size: 1.1rem;
+  }
+
+  .styles-title {
+    font-size: 1.6rem;
+  }
+
+  .style-title {
+    font-size: 1rem;
+  }
+
+  .style-variant {
+    font-size: 1.05rem;
+  }
+
+  .add-btn:link,
+  .add-btn:visited {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+  }
+
+  .price {
+    font-size: 1.2rem;
+  }
+
+  .spec-text {
+    font-size: 1rem;
+  }
+
+  .spec-img {
+    width: 25%;
+  }
+}
+
+@media (max-width: 60em) {
+  .section-hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .hero-text {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-description {
+    width: 40rem;
+  }
+
+  .hero-buy {
+    align-self: flex-start;
+  }
+
+  .btn-buy {
+    align-self: flex-start;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hidden-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  #header {
+    margin-bottom: 0;
+  }
+
+  .styles-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 100%;
+    gap: 4.8rem;
+}
+
+
+@media (max-width: 44em) {
+  #header-img {
+    max-width: 3.4rem;
+  }
+
+  .nav-list {
+    margin-right: 0.8rem;
+    gap: 1.2rem;
+  }
+
+.nav-list li a:link, .nav-list li a:visited {
+  font-size: 0.8rem;
+  }
+
+  .hero-description {
+    width: 18rem;
+  }
+
+  .hero-text {
+    /* margin-right: 0; */
+    margin: 0 auto;
+  }
+
+  .btn-buy:link, .btn-buy:visited {
+    font-size: 1.2rem;
+  }
+  
+  .section-specs {
+    /* background-color: #000; */
+    /* color: #fff; */
+    padding: 2.8rem 1rem;
+  }
+
+  .specs-container {
+    display: grid;
+    /* align-items: center; */
+    row-gap: 4.4rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .img-box:nth-of-type(1) {
+    grid-row: 1;
+  }
+
+  .img-box:nth-of-type(3) {
+    grid-row: 5;
+  }
+
+  .spec-text {
+    font-size: 0.98rem;
+}
+
+  .section-styles {
+  padding: 3.2rem 3rem 0 3rem;
+  }
+
+  .styles-title {
+  font-size: 1.5rem;
+  }
+
+  .styles-container {
+    padding: 4rem 2rem 0 2rem;
+    
+}
+
+  .section-form h3 {
+    font-size: 1.3rem;
+}
+}
+
+@media (max-width: 34rem) {
+
+  #header-img {
+    max-width: 3rem;
+}
+
+.nav-list {
+  margin-right: 0;
+  gap: 1rem;
+}
+
+.nav-list li a:link, .nav-list li a:visited {
+  font-size: 0.85rem;
+  
+  padding: 0.1rem 0.4rem;
+}
+
+  .specs-container {
+    width: 25rem;
+  }
+
+  .spec-img {
+    width: 50%;
+}
+
+.specs-container {
+  width: 16rem;
+  padding: 0;
+}
+
+.styles-container {
+  padding: 0;
+}
+
+.section-styles {
+  padding: 3.2rem 3rem 0 3rem;
+}
+
+.styles-title {
+  font-size: 1.2rem;
+  padding-bottom: 3.2rem;
+}
+
+.section-form h3 {
+  font-size: 1.2rem;
+}
+
+.section-form > form > input[type="name"], .section-form > form > input[type="email"] {
+  width: 17rem;
+}
+}
